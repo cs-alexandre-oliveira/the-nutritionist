@@ -21,9 +21,9 @@ if(weight <= 0 || weight >= 1000) {
 }
 
 if(height <= 0 || height >= 1000) {
-  console.log('Altura Invalida!')
   valueHeight = false
   insertImc.textContent = 'Altura Invalida'
+  console.log(imc)
 }
 
 if(weight && height) {
